@@ -35,28 +35,28 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  sum = x + y;
+  let sum = x + y;
   return sum;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  rest = x - y;
+  let rest = x - y;
   return rest;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  multi = x * y;
+  let multi = x * y;
   return multi;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  div = x / y;
+  let div = x / y;
   return div;
 }
 
@@ -189,7 +189,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  var cadena = str + '!';
+  let cadena = str + '!';
   return cadena;
 }
 
@@ -197,7 +197,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var cadena = nombre + ' ' + apellido;
+  let cadena = nombre + ' ' + apellido;
   return cadena;
 }
 
@@ -205,28 +205,28 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var cadena = 'Hola ' + nombre + '!';
+  let cadena = 'Hola ' + nombre + '!';
   return cadena;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  var resultado = alto * ancho;
+  let resultado = alto * ancho;
   return resultado;
 }
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  var resultado = lado * 4;
+  let resultado = lado * 4;
   return resultado;
 }
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  var resultado = (base * altura) / 2;
+  let resultado = (base * altura) / 2;
   return resultado;
 }
 
@@ -235,7 +235,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  var conversion = euro * 1.2;
+  let conversion = euro * 1.2;
   return conversion;
 }
 
