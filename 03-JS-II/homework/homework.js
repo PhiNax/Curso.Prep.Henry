@@ -187,11 +187,11 @@ function esPrimo(numero) {
   if ( numero < 2) {
     return false;
   }
-  else if ( numero === 2 ){
+  else if ( numero === 2 ) {
     return true;
   }
 
-  for (let i = 2; i < numero; i++) {
+  for ( let i = 2; i < numero; i++ ) {
     if ( numero % i === 0 ) {
       return false;
     }
@@ -201,7 +201,7 @@ function esPrimo(numero) {
   }
 }
 
-function esVerdadero(valor){
+function esVerdadero(valor) {
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
@@ -213,20 +213,20 @@ function esVerdadero(valor){
   }
 }
 
-function tablaDelSeis(){
+function tablaDelSeis() {
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí
   let table = [];
 
   for ( let i = 0; i < 11; i++ ) {
-    table.push(6 * i);
+    table.push( 6 * i );
   }
   
   return table;
 }
 
-function tieneTresDigitos(numero){
+function tieneTresDigitos(numero) {
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if ( numero > 99 && numero < 1000 ) {
