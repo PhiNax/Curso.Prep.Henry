@@ -5,3 +5,7 @@
 	* Funciones (argumentos, `return`)
 	* Declaraciones `if`
 	* Valores booleanos (`true`, `false`)
+
+	La Variable como indica su nombre es variable, significa que su valor puede ir variando. Por lo tanto una variable es un dato que se aloja en memoria con un valor que puede ir cambiando.
+
+	Los strings son caracteres 
